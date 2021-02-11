@@ -1,5 +1,3 @@
-Code: 
-
 import java.util.Scanner;
 public class random {
 public static void main(String[] args) { 
