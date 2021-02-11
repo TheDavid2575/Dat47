@@ -1,3 +1,5 @@
+//rupees
+
 import java.util.Scanner;
 public class random {
 public static void main(String[] args) { 
@@ -11,6 +13,17 @@ public static void main(String[] args) {
 	} 
 }
 
-//or
 
-//add other currency here
+//canadian "dollars"
+
+import java.util.Scanner;
+public class convert1 {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		double USD, CD;
+		System.out.println("Enter the amount of US dollars\n");
+		USD = input.nextDouble();
+		CD = 1.4*USD;
+		System.out.printf("The amount of Canadian dollars is %.2f\n", CD);	
+	}
+}
